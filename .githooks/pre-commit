@@ -1,0 +1,20 @@
+#!/bin/sh
+# Every commit here is authored and committed as Anjero Animations.
+# Enable once per clone: git config core.hooksPath .githooks
+
+name="Anjero Animations"
+email="anjeroanimations@gmail.com"
+expected="$name <$email>"
+
+for role in AUTHOR COMMITTER; do
+	# The identity this commit will carry, after --author, the environment and config.
+	ident=$(git var "GIT_${role}_IDENT") || exit 1
+	actual=${ident% * *}
+	if [ "$actual" != "$expected" ]; then
+		echo "pre-commit: the $(echo "$role" | tr 'A-Z' 'a-z') is \"$actual\", not \"$expected\"." >&2
+		echo "Set it for this repository:" >&2
+		echo "  git config user.name \"$name\"" >&2
+		echo "  git config user.email $email" >&2
+		exit 1
+	fi
+done
