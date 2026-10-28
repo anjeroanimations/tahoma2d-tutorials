@@ -24,3 +24,15 @@ release should open it too, but that one is the one it is checked against.
 ## Episodes
 
 Each video's description links to its folder here.
+
+## Licence
+
+Copyright © 2026 Anjero Animations. The projects are licensed under
+[Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+(CC BY-NC 4.0); the full text is in [LICENSE](LICENSE).
+
+- **You can** learn from them, teach with them, change them and share them, as long as
+  you credit Anjero Animations and link back here.
+- **You can't** sell them, or use the characters or artwork in commercial work.
+- **The techniques are yours.** Use what the videos show in anything you make, paid work
+  included.
