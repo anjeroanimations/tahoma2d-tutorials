@@ -1,0 +1,5 @@
+# What Tahoma writes as you work in the project.
+outputs/*
+!outputs/scenes.xml
+sceneIcons/
+backups/

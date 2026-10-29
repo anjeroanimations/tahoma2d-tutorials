@@ -1,8 +1,20 @@
 # Tahoma2D tutorials
 
+![Red Guy dashing across a field with fading copies trailing behind him](media/01-afterimages/afterimages.gif)
+
 Free project files for the Anjero Animations Tahoma2D tutorials on YouTube. Each
 episode has its own folder holding the scene the video builds, so you can open it, see
 how it's put together and try the effect on your own characters.
+
+## Episodes
+
+The folders are numbered in the order the videos come out, so new ones land at the end.
+
+| | Episode | What you'll make |
+| --- | --- | --- |
+| 01 | [Afterimages](01-afterimages/) | Fading copies trailing a moving character, with one stock effect |
+
+Each video's description links to its folder here.
 
 ## Using a project
 
@@ -14,16 +26,13 @@ how it's put together and try the effect on your own characters.
    ```
 
    Otherwise, choose Code > Download ZIP on this page and unzip it.
-2. In Tahoma2D, choose File > Load Scene and open the episode's `.tnz` file.
+2. In Tahoma2D, choose File > Load Scene and open the episode's `.tnz` file, from its
+   `scenes` folder.
 3. Play it, take it apart, break it, swap in your own characters. It's yours to mess
    with.
 
 Each episode's README names the Tahoma2D release it was made and tested in. A newer
 release should open it too, but that one is the one it is checked against.
-
-## Episodes
-
-Each video's description links to its folder here.
 
 ## Licence
 
